@@ -85,6 +85,7 @@ public class Roulette{
         }
     }
     separator();
+    balance(money);
     System.out.println("You ran out of money or stopped betting!");
     separator();
 }
