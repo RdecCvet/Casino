@@ -26,10 +26,10 @@ public class Roulette{
             separator();
 
             Random rand = new Random();
-        int trenutnoStevilo=rand.nextInt(14);
-        if (trenutnoStevilo==0){ // potem je zeleno
+        int currentNumber=rand.nextInt(14);
+        if (currentNumber==0){ // potem je zeleno
             separator();
-            System.out.printf("Number: %d%nGreen has been hit!%n",trenutnoStevilo);
+            System.out.printf("Number: %d%nGreen has been hit!%n",currentNumber);
             separator();
             if (currentColor.equals("green")){
                 money+=14*currentBet;
@@ -47,9 +47,9 @@ public class Roulette{
 
             
         }
-        if (trenutnoStevilo%2==0 && trenutnoStevilo!=0){ //potem je rdece
+        if (currentNumber%2==0 && currentNumber!=0){ //potem je rdece
             separator();
-            System.out.printf("Number: %d%nRed has been hit!%n",trenutnoStevilo);
+            System.out.printf("Number: %d%nRed has been hit!%n",currentNumber);
             separator();
             if (currentColor.equals("red")){
                 money+=2*currentBet;
@@ -65,9 +65,9 @@ public class Roulette{
                 break;
             }
         }
-        else if (trenutnoStevilo%2!=0){ //potem je crno
+        else if (currentNumber%2!=0){ //potem je crno
             separator();
-            System.out.printf("Number: %d%nBlack has been hit!%n",trenutnoStevilo);
+            System.out.printf("Number: %d%nBlack has been hit!%n",currentNumber);
             separator();
             if (currentColor.equals("black")){
                 money+=2*currentBet;
