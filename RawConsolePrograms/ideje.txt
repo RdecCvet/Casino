@@ -1,0 +1,3 @@
+- mine (n stevilo min) 
+- spin the wheel
+- coinflip
