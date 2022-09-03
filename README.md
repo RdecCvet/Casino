@@ -1,2 +1,7 @@
 # Casino
 Practicing my programming skills by making fun casino gamemodes.
+
+## Console casino programs
+
+All you have to do is run them filename.java (first javac [filename].java if your IDE doesn't support automatic compiling)  
+ 
